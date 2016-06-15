@@ -12,6 +12,8 @@
 		482D2E8F47AD47979EFF891C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AF81A5289D45EAA2F19EF4 /* main.m */; };
 		5171D40E67259D41884EDCC0 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B627BE81D7997190CF7802 /* libPods-unit_tests.a */; };
 		9AF9063830C34ED0B3E89B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F28609C53504142A3CDCCAD /* Foundation.framework */; };
+		A407B3711D11EE650059107D /* FISPet.m in Sources */ = {isa = PBXBuildFile; fileRef = A407B3701D11EE650059107D /* FISPet.m */; };
+		A407B3741D11EF150059107D /* FISDog.m in Sources */ = {isa = PBXBuildFile; fileRef = A407B3731D11EF150059107D /* FISDog.m */; };
 		DCCE3AAABDF34C04AE42C254 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 333D26DD4ABC4AE2A85B33E2 /* Images.xcassets */; };
 		FDC791D83E89434B87E488A3 /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70CC415B5C7E445DAD1414D9 /* FISAppDelegate.m */; };
 /* End PBXBuildFile section */
@@ -39,6 +41,10 @@
 		6BF26FB9837047FF8DA599D0 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		70CC415B5C7E445DAD1414D9 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		964253FB2F274C7FBAB8042F /* objc-PetCast-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "objc-PetCast-Prefix.pch"; sourceTree = "<group>"; };
+		A407B36F1D11EE650059107D /* FISPet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPet.h; sourceTree = "<group>"; };
+		A407B3701D11EE650059107D /* FISPet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPet.m; sourceTree = "<group>"; };
+		A407B3721D11EF150059107D /* FISDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISDog.h; sourceTree = "<group>"; };
+		A407B3731D11EF150059107D /* FISDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISDog.m; sourceTree = "<group>"; };
 		AC7D892834C14E1185B11DFA /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		B8B627BE81D7997190CF7802 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C4F61669E54078A02E778C /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,6 +152,10 @@
 			children = (
 				6BF26FB9837047FF8DA599D0 /* FISAppDelegate.h */,
 				70CC415B5C7E445DAD1414D9 /* FISAppDelegate.m */,
+				A407B36F1D11EE650059107D /* FISPet.h */,
+				A407B3701D11EE650059107D /* FISPet.m */,
+				A407B3721D11EF150059107D /* FISDog.h */,
+				A407B3731D11EF150059107D /* FISDog.m */,
 				56B4D1BEB3A042BD9188A24F /* Resources */,
 			);
 			path = "objc-PetCast";
@@ -311,6 +321,8 @@
 			files = (
 				FDC791D83E89434B87E488A3 /* FISAppDelegate.m in Sources */,
 				482D2E8F47AD47979EFF891C /* main.m in Sources */,
+				A407B3711D11EE650059107D /* FISPet.m in Sources */,
+				A407B3741D11EF150059107D /* FISDog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
